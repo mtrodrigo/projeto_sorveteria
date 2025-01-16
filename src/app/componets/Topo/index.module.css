@@ -1,6 +1,8 @@
 .cabecalho{
     background: #f9db79;
     width: 100%;
+    position: fixed;
+    height: 110px;
 }
 .container_cabecalho{
     max-width: 1024px;
@@ -17,13 +19,13 @@
 .link{
     color: #000;
     text-decoration: none;
-    padding: 20px 20px;
+    padding: 20px;
     font-size: 18px;
 }
 .link:hover{
     color: #9b9da0;
 }
-@media (max-width: 375px) {
+@media (max-width: 450px) {
     .container_cabecalho{
         flex-direction: column;
     }

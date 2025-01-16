@@ -13,7 +13,7 @@ export default function Topo(){
                 </figure>
                 <nav className={style.link_container}>
                     <Link className={style.link} href="/">Home</Link>
-                    <Link className={style.link} href="/sabores">Sabore</Link>
+                    <Link className={style.link} href="/sabores">Sabores</Link>
                     <Link className={style.link} href="/sobre">Sobre</Link>
                 </nav>
             </section>

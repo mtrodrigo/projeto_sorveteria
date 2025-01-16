@@ -28,7 +28,8 @@ export default function Rodape(){
                     </div>
                 </section>
                 <section className={style.rodape_criador}>
-                    <p>&copy; 2025 Gelateria - Desenvolvido por <strong><Link className={style.link} target="_blank" href="https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/">Rodrigo Marques Tavares</Link></strong></p>
+                    <p>&copy; 2025 Gelateria </p>
+                    <span>Desenvolvido por <strong><Link className={style.link} target="_blank" href="https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/">Rodrigo Marques Tavares</Link></strong></span>
                 </section>
             </section>
         </footer>

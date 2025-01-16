@@ -39,3 +39,14 @@
 .link:hover{
     color: #9b9da0;
 }
+@media (max-width: 768px) {
+    .rodape_contato{
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .contato_box{
+        max-width: 100%;
+        padding: 10px 0;
+        text-align: center;  
+    }
+}
