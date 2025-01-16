@@ -1,0 +1,41 @@
+.rodape{
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+.rodape_container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.rodape_contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 20px;
+}
+.contato_box{
+    max-width: 20%;
+    max-height: 100px;
+}
+.contato_box h3{
+    font-size: 18px;
+}
+.contato_box p{
+    font-size: 16px;
+}
+.img_rodape{
+    width: 100px;
+    height: 100px;
+}
+.rodape_criador{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+}
+.link:hover{
+    color: #9b9da0;
+}

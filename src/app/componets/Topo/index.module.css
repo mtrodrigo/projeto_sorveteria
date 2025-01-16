@@ -1,0 +1,34 @@
+.cabecalho{
+    background: #f9db79;
+    width: 100%;
+}
+.container_cabecalho{
+    max-width: 1024px;
+    background: #f9db79;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.img_cabecalho{
+    width: 100px;
+    height: 100px;
+}
+.link{
+    color: #000;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 18px;
+}
+.link:hover{
+    color: #9b9da0;
+}
+@media (max-width: 375px) {
+    .container_cabecalho{
+        flex-direction: column;
+    }
+    .link_container{
+        padding-bottom: 40px;
+    }
+}
+
